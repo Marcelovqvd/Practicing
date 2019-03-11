@@ -1,0 +1,19 @@
+.icon-bar {
+  width: 90%;
+  background-color: #555;
+  margin: auto; 
+  overflow: auto;
+}
+
+.icon-bar a {
+  display: block; 
+  width: 15%;
+  float: left;
+  text-align: center;
+  padding: 16px;
+  color: white;
+}
+
+.active {
+  background-color: #f00;
+}
