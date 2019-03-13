@@ -1,0 +1,1 @@
+Praticing the usage of background image.

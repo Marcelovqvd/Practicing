@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	background: rgb(226, 226, 236);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h3 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 40px;
+	color: #fec63e;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: 'Times New Roman', Times, serif;
+	color: #c0b49d;
+	font-size: 18px;	
+	line-height: 25px;
+	margin: 15px;
+}
+
+/*contact*/
+.contact {
+	background: url(img/camera.jpg) no-repeat center;
+	background-size: cover;	
+	width: 840px;
+	height: 360px;
+	margin: 0px auto;	
+}
+
+.contact h1 {
+	padding: 40px 0 0 40px;
+	margin: 0px 0 25px 30px;
+}
+
+.contact-paragraph {
+	position: relative;
+	top: -20px;
+	left: 40px;
+	width: 350px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+/* contact data*/
+
+.contact_data {
+	background: rgb(0, 0, 0);
+	color: #fff;
+	width: 840px;
+	margin: 0 auto;
+}
+
+.contact_data h3:nth-of-type(odd) {
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #fec63e;
+	margin: 10px 0 5px 40px;
+	padding: 25px 0 10px 0;
+}
+
+.contact_data h3:nth-of-type(even) {
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #fec63e;
+	margin: 40px 0 5px 40px;
+	padding: 15px 0 10px 0;
+}
+
+.contact_data h3::after {
+	content: " ";
+	background: #c0b49d;
+	display: block;
+	width: 380px;
+	height: 2px;
+	margin: 5px 0 0px 0;
+}
+
+.contact_data span {
+	display: block;
+	width: 250px;
+	font-size: 18px;
+	letter-spacing: .1em;
+	font-family: Georgia, "Times New Roman", serif;
+	color: #c0b49d;
+	margin-left: 40px;
+	padding: 10px;
+	background-color: rgb(32, 27, 27);
+	text-align: center;
+}
+
+.contact_data span:nth-of-type(even) {
+	background-color: rgb(49, 47, 47);
+}
+
+.contact_data span:hover {
+	color: #fec63e;
+}
+
+.contact_data ul li {
+	display: inline-block;
+	margin: 10px 0 40px 40px;
+}
+
+.contact_data ul li a {
+	border: 3px solid #fec63e;
+	display: block;
+	padding: 10px;
+}
+
+.contact_data ul li a:hover {
+	border-color: #000;
+}
+
+/*footer*/
+
+.footer {
+	background: rgb(226, 226, 236);
+	width: 100%;
+}
+
+.footer p {
+	color: #000;
+	margin-left: 575px;
+	font-size: 18px;
+}
+
