@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: 16px;
+}
+
+.container {
+  background: rgb(7, 7, 194);
+  margin: 0 auto;
+  width: 780px;
+  height: 300px;
+}
+
+#image {
+  position: absolute;
+  top: 230px;
+  left: 640px;
+  width: 110px;
+  height: 61px;
+}
+
+.box {
+  position: relative;
+  top: 50px;
+  background-image: url(background.png);
+  width: 750px;
+  height: 180px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  border-radius: 15px;
+    
+}
+
+.box_inside {
+  margin: 10px 30px; 
+}
+
+.box_inside h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: orange;
+}
+
+.box_inside h1 {
+  font-size: 80px;
+  color: orange;
+  font-weight: 900;
+}
+
+.box_inside h3 {
+  font-size: 20px;
+  letter-spacing: .2em;
+  color: red;
+  padding-top: 4px;
+}
+
+.box_inside img {
+  position: absolute;
+  top: 40px;
+  left: 140px;
+  height: 100px;
+}
+
+.inside2 {
+  position: absolute;
+  top: -10px;
+  left: 260px; 
+}
+
+.inside2 p {
+ color: orange;
+ font-size: 22px;
+}
+
+.inside2 h1 {
+  font-size: 70px;
+  color: rgb(211, 194, 194);
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+}
+
+.inside2 img {
+  position: absolute;
+  top: 55px;
+  left: 170px;
+  height: 100px;
+}
+.inside3 ul {
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 550px;
+  list-style: none;
+}
+
+.inside3 li p {
+  font-size: 20px;
+  color: orange;
+  margin: 5px;
+}
+ 
+.container_background {
+  background: yellow;
+  height: 30px;
+  width: 125px;
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  border-radius: 15px;
+}
+
+.container_background h1 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 7px;
+  margin-left: 10px;
+}
+
+.container_background p {
+  color: greenyellow;
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  left: 140px;
+  
+}
+
+.paragraph_background {
+  position: absolute;
+  top: 250px;
+  left: 450px;
+  color: orange;
+}
+
+.paragraph_background p {
+  font-size: 25px;
+  display: inline;
+  margin-left: 20px;
+}
+
+.paragraph_background img {
+  height: 25px;
+  display: inline;
+  margin-left: -15px;
+}
