@@ -1,1 +1,1 @@
-Banner using pure CSS
+Banner made with pure CSS
