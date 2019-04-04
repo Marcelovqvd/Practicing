@@ -1,1 +1,1 @@
-Practicing HTML, CSS and Javascript
+<h1>Practicing HTML & CSS</h1> 
