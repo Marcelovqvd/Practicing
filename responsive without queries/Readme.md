@@ -1,5 +1,5 @@
-Practicing Responsive
-Making it responsive with: 
-pseudo elements ::before and ::after; 
-display: table; content: ''; clear: both;
-float:left;
+<h1>Practicing Responsive</h1>
+<p>Making it responsive with:</p> 
+<p>pseudo elements ::before and ::after;</p>
+<p>display: table; content: ''; clear: both;</p>
+<p>float:left;</p>
