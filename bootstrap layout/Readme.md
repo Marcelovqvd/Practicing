@@ -1,2 +1,2 @@
-<h1>Practcing responsive layout with Bootstrap</h1>
+<h1>Practicing responsive layout with Bootstrap</h1>
 
