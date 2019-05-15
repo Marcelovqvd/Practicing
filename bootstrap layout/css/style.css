@@ -1,0 +1,50 @@
+body {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0;
+  color:#fff;
+  background: url(aerial.jpg) no-repeat bottom center scroll;
+  background-size: cover;
+}
+
+section {
+  margin: 550px 0;
+  height: 100vh;
+}
+
+h1, h2, p, a {
+  color: red;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+#aristoteles p {
+  background: black;
+}
+
+.lista {
+  display: flex;
+  list-style: none;
+}
+
+.lista li {
+ margin: 10px;
+}
+
+.lista li a {
+  text-decoration: none;
+  padding: 20px;
+}
+
+.fim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fim h2 {
+  font-size: 30px;
+}
